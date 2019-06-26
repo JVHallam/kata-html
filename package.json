@@ -1,0 +1,25 @@
+{
+  "name": "kata-html",
+  "version": "1.0.0",
+  "description": "## What is this? This is going to be a way of practising HTML, without the need of build tools. One will simply include a link to the CDN that is wanted and go from there.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JVHallam/kata-html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JVHallam/kata-html/issues"
+  },
+  "homepage": "https://github.com/JVHallam/kata-html#readme",
+  "devDependencies": {
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
+  }
+}
