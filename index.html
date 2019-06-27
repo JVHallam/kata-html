@@ -9,5 +9,27 @@
     <h1>
       This is my index page!
     </h1>
+    <div>
+      <p>
+        These are the scripts to be put in to test a website.
+      </p>
+      <ul id="list">
+
+      </ul>
+    </div>
+    <script>
+      const links = [
+        [ "name", "#" ],
+        [ "name", "#" ],
+        [ "name", "#" ]
+      ];
+    
+      const mappedHtml = links
+        .map( ([name, href]) => `<li> <a href="${href}"> ${ name } </a></li>`)
+        .reduce( ( a, x ) => a + x, ``);
+
+      document.getElementById("list").innerHTML = mappedHtml;
+
+    </script>
   </body>
 </html>
