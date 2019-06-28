@@ -1,6 +1,4 @@
+const mocha = require("chai");
+const assert = mocha;
 
-module.exports = { 
-  test : function(){ console.log("Test"); }
-}
-
-console.log("File loaded in!");
+assert.equal(1, 1);
