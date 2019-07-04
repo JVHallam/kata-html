@@ -3,8 +3,10 @@ const maf = require("maf-test");
 const describe = maf.describe;
 const test = maf.test;
 
+const prettyPrint = require("./prettyprint.js").prettyPrintAllTests;
+
 (async() => {
-  const result = describe([
+  const result = await describe([
     test("This is a chai test", () => {
       expect( 1 ).to.equal( 1 );
     }),
@@ -16,5 +18,5 @@ const test = maf.test;
     })
   ]);
 
-  console.log(result);
+  prettyPrint( result );
 })();

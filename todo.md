@@ -2,11 +2,9 @@ Todo
 ===
 
 Quick list:
-* Make / Find an in browser testing library
-  * Turn MAF into it's own package
-  * Distribute it VIA npm
-  * import it here
-  * make sure it's details can be output to the browser, with colour
+* Pretty printing errors:
+  * Take MAF
+  * Make the test suites print nicely to the console
 
 * Create a homepage that:
   * Has a link to an explanation of how this works
