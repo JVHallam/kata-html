@@ -2,14 +2,16 @@ Todo
 ===
 
 Quick list:
-* Pretty printing errors:
-  * Take MAF
-  * Make the test suites print nicely to the console
 
 * Create a homepage that:
   * Has a link to an explanation of how this works
   * has a visible link to the exercises
   * each exercise describes wtf to do
+
+* Each exercise section:
+  * Has an HTML page, explaining the exercises
+  * Has a javascript link that can be included into the page
+  * Has a topic to cover ( best practises, setup, meta )
 
 * Exercises:
   * standards and best practises ( like declaring doctype )
