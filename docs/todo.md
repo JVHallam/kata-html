@@ -3,11 +3,6 @@ Todo
 
 Quick list:
 
-* Create a homepage that:
-  * Has a link to an explanation of how this works
-  * has a visible link to the exercises
-  * each exercise describes wtf to do
-
 * Each exercise section:
   * Has an HTML page, explaining the exercises
   * Has a javascript link that can be included into the page
