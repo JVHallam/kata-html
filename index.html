@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>
-      Moron makes a repo
+      Kata HTML
     </title>
   </head>
   <body>
@@ -10,26 +10,30 @@
       This is my index page!
     </h1>
     <div>
-      <p>
-        These are the scripts to be put in to test a website.
-      </p>
-      <a href="exercises">
-        This is a link to the directory containing all the exercises
-      </a>
+      <div>
+        <h1>
+          You can find all of the exercises here:
+        </h1>
+        <a href="exercises">
+          This is a link to the directory containing all the exercises
+        </a>
+      </div>
+      <div id="exercise-explanation">
+        <h1>
+          Explanation
+        </h1>
+        <p>
+          The idea will be that:
+          <ul>
+            <li> You'll go to a page with an exercise on it </li>
+            <li> You'll set up your own html page locally </li>
+            <li> You'll include a link to the javascript </li>
+            <li> You'll make your html look / function like it does in the exercise </li>
+            <li> Open your console. The included javascript will test your DOM to see if that matches what's expected </li>
+            <li> The exercises will be built to expect flexiblity of DOM structure </li>
+          </ul>
+        </p>
+      </div>
     </div>
-    <script>
-      const links = [
-        [ "name", "#" ],
-        [ "name", "#" ],
-        [ "name", "#" ]
-      ];
-    
-      const mappedHtml = links
-        .map( ([name, href]) => `<li> <a href="${href}"> ${ name } </a></li>`)
-        .reduce( ( a, x ) => a + x, ``);
-
-      document.getElementById("list").innerHTML = mappedHtml;
-
-    </script>
   </body>
 </html>
